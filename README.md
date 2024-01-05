@@ -1,1 +1,1 @@
-Hi wellcome , i'm happy to your visit this repository , This Rating card project is done with React, you can run main branch and see result also the screenshot of results is in design folder, thank u Bye
+Hi wellcome , i'm happy to your visit this repository , This Rating card project is done with React, you can run main branch and seen result also the screenshots of results is in design folder, thank u Bye
