@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@1,9..144,900&family=IBM+Plex+Sans:wght@700&family=Montserrat:wght@100&family=Overpass&display=swap');
+
+
+
+.card{
+    width: 345px;
+    height: 380px;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 10px;
+    margin-top: 25px;
+}
+#star{
+    width: 38px;
+    height: 38px;
+    background-color: hsla(217, 12%, 63%, 0.096);
+    border-radius: 50%;
+    margin-left: 10px;
+}
+#star, #circle, #circle1, .select{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.container{
+    margin-inline: 12px;
+    margin-block: 27px;
+}
+.title{
+    color: hsl(0, 0%, 100%);
+    font-family: 'Overpass', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+#text{
+    color: hsla(217, 12%, 63%);
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    width: 320px;
+}
+#circle, #circle1{
+    width: 48px;
+    height: 48px;
+    background-color: hsla(217, 12%, 63%, 0.096);
+    color: hsla(217, 12%, 63%);
+    border-radius: 50%;
+    border: none;
+}
+#circle1{
+    margin-right: 7px;
+}
+#circle:focus{
+    background-color:hsla(217, 12%, 63%);
+    color: black;
+}
+#circle1:focus{
+    background-color:hsla(217, 12%, 63%);
+    color: black;
+}
+.circle{
+    display: flex;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+}
+#submit{
+    font-family: 'Overpass', sans-serif;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    border-radius: 25px;
+    width: 300px;
+    height: 50px;
+    margin-block: 25px;
+    letter-spacing: 3px;
+    
+}
+#submit:hover{
+    background-color: aliceblue ;
+    color: hsl(25, 97%, 53%);
+    border-color: hsl(25, 97%, 53%);
+    transition: .8s;
+
+}
+#svg{
+    display: flex;
+    justify-content: center;
+    margin-right: inherit;
+}
+#selected{
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: hsl(25, 97%, 53%);
+}
+#plus{
+    background-color: rgba(149, 158, 172, 0.249);
+    width:fit-content;
+    height: 25px;
+    padding-top: 2.5px;
+    padding-inline: 10px;
+    border-radius: 20px;
+}
+h1{
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+    color: white;
+}
+.xxyy{
+    padding-right: 20px;
+}
+
+#tnk{
+    color: rgba(149, 158, 172);
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+}
+.select{
+    margin-top: 35px;
+}

@@ -1,0 +1,11 @@
+
+body {
+        background-color: hsl(216, 12%, 8%);
+
+        display: flex;
+
+        justify-content: center;
+
+        align-items: center;
+        
+      }
